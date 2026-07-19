@@ -29,9 +29,6 @@ print(lst)
 # 2) `insert()`
 
 
-
-
-
 ### Example 1
 
 lst = [10, 20, 30, 40]
@@ -45,7 +42,7 @@ print(lst)
 lst.insert(-1, 155)
 print(lst)
 
-[10, 20, 'Rs', 30, 155, 40]
+
 
 
 ### Example 3
@@ -53,7 +50,6 @@ print(lst)
 lst.insert(300, "kop")
 print(lst)
 
-[10, 20, 'Rs', 30, 155, 40, 'kop']
 
 
 ### Example 4
@@ -61,7 +57,6 @@ print(lst)
 lst.insert(-400, 111)
 print(lst)
 
-[111, 10, 20, 'Rs', 30, 155, 40, 'kop']
 
 
 # 3) `remove()`
@@ -74,7 +69,7 @@ lst = [10, "Rs", 45.67, 2+3j]
 lst.remove("Rs")
 print(lst)
 
-[10, 45.67, (2+3j)]
+
 
 ### Example 2
 
@@ -97,6 +92,78 @@ lst = [10, 20, 10, 30, 10]
 lst.remove(10)
 print(lst)
 
+## 4) `pop(index)`
+
+### Definition
 
 
-[20, 10, 30, 10]
+
+
+lst = [10, 20, 30, 40, 10]
+
+lst.pop(-4)
+
+
+
+lst.pop(14)
+print(lst)
+
+
+## 5) `pop()`
+
+### Definition
+list.pop()
+
+lst = [10, 20, 30, 40]
+print(lst)
+
+lst = []
+lst.pop()
+
+IndexError
+
+## 6) `clear()`
+
+### Definition
+
+
+### Examples
+
+
+
+
+lst = [10, 20, 30, 40, 10]
+
+lst.clear()
+print(lst)
+
+
+
+
+
+[].clear()
+
+None
+
+
+
+
+print([].clear())
+
+
+## 7) `index()`
+
+### Definition
+
+
+### Examples
+
+lst = [10, "Bs", 45.67, "Python", 23, True, "High"]
+
+lst.index("Python")
+
+
+
+#2
+
+lst.index(23.45)
