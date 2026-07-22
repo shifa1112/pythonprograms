@@ -1,5 +1,5 @@
 
-# List Methods
+#list functions
 
 
 # 1) `append()`
@@ -78,9 +78,6 @@ print(lst)
 
 
 
-### Example 3
-
-lst.remove(100)
 
 ### Example 4
 
