@@ -19,8 +19,7 @@ a=10
 s= set([a])
 print(s,type(s))
 
-s= set((a))
-print(s,type(s))
+
 
 s= set((a,))
 print(s,type(s))
