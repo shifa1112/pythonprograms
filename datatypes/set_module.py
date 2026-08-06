@@ -36,7 +36,7 @@ def accessing(s):
 
 # ---------------- SET OPERATIONS ----------------
 
-def operations(s):
+def operations(s,s2):
 
     print("\n----- SET OPERATIONS -----")
 
@@ -80,7 +80,7 @@ def builtin_functions(s):
 
 # ---------------- COMPARISON OPERATORS ----------------
 
-def comparison(s):
+def comparison(s,s2):
 
     print("\n----- COMPARISON OPERATORS -----")
 
